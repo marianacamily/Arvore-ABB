@@ -1,5 +1,5 @@
 # Árvore-ABB
-Trabalho da disciplina de Estrutura de Dados, feito por Beatriz Petry, Julia Engels e Mariana Camily, cursando o 4° período de Engenharia de Software na PUCPR. O trabalho é baseado em uma implementação de uma árvore de busca binária, seguindo os princípios de Programação Orientada a Objetos, ou seja, modulada em classes Main, ArvoreBuscaBinaria, Nó e TreeFormatter.
+Trabalho da disciplina de Estrutura de Dados, feito por Beatriz Petry, Julia Engels e Mariana Camily, cursando o 4° período de Engenharia de Software na PUCPR. O trabalho é baseado em uma implementação de uma árvore de busca binária, seguindo os princípios de Programação Orientada a Objetos, ou seja, modulada em classes Main, ArvoreBuscaBinaria e Nó.
 
 # Alguns Conceitos Abordados
 Arvore- ABB
@@ -19,7 +19,4 @@ Método de impressão da árvore em um formato de dependência usando a classe T
 
 ### Remoção
 O método remoção (int valor) remove um valor da árvore. Ele chama o método privado remocaoRecursiva para realizar a remoção de forma recursiva, considerando os casos de remoção de nós com nenhum, um ou dois filhos. Além de ter o método privado encontrarMenorValor que ajuda a encontrar o menor valor da subárvore a partir de um nó dado.
-
-### TreeFormatter
-Código que é copiado do stack overflow, apontado pelo monitor da área, sendo que foi adaptado para a classe de Arvore-ABB, dessa forma a árvore ao ser impressa, fica com um formatação adequada.
 
