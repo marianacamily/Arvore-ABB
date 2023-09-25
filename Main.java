@@ -37,7 +37,7 @@ public class Main {
                 System.out.print("Digite o valor que deseja remover: ");
                 int valorRemover = scanner.nextInt();
                 arvore.remover(valorRemover);
-                System.out.println("\nO Valor " + valorRemover + " foi removido da árvore:");
+                System.out.print("Árvore Impressa: ");
                 arvore.printTree();
             }
             else if (resposta == 4){
