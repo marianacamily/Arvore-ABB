@@ -38,6 +38,7 @@ public class Main {
                 int valorRemover = scanner.nextInt();
                 arvore.remover(valorRemover);
                 System.out.print("Árvore Impressa: ");
+                System.out.println();
                 arvore.printTree();
             }
             else if (resposta == 4){
