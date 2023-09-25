@@ -1,4 +1,5 @@
-![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/d32f0626-ed54-4120-a615-da4e108bee4c)# Árvore-ABB
+![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/d32f0626-ed54-4120-a615-da4e108bee4c)
+# Árvore-ABB
 Trabalho da disciplina de Estrutura de Dados, feito por Beatriz Petry, Julia Engels e Mariana Camily, cursando o 4° período de Engenharia de Software na PUCPR. O trabalho é baseado em uma implementação de uma árvore de busca binária, seguindo os princípios de Programação Orientada a Objetos, ou seja, modulada em classes Main, ArvoreBuscaBinaria e Nó.
 
 # Alguns Conceitos Abordados
