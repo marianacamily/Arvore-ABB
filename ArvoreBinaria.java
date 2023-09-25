@@ -81,17 +81,8 @@ public class ArvoreBinaria {
         return valorMinimo;
     }
 
-public void printTree() {
-        printTree(raiz, 0, "Raiz: ");
-    }
-
-    private void printTree(Nó raiz, int level, String prefix) {
-        if (raiz!= null) {
-            System.out.println(" ".repeat(level * 4) + prefix + raiz.dado);
-            if (raiz.esquerda!= null || raiz.direita!= null) {
-                printTree(raiz.esquerda, level + 1, "E--- ");
-                printTree(raiz.direita, level + 1, "D--- ");
-            }
-        }
+    public void printTree() {
+        TreeFormatter formatter = new TreeFormatter();
+        System.out.println(formatter.topDown(raiz));
     }
 }
