@@ -21,20 +21,20 @@ Método de impressão da árvore em um formato de dependência usando o printTre
 O método remoção (int valor) remove um valor da árvore. Ele chama o método privado remocaoRecursiva para realizar a remoção de forma recursiva, considerando os casos de remoção de nós com nenhum, um ou dois filhos. Além de ter o método privado encontrarMenorValor que ajuda a encontrar o menor valor da subárvore a partir de um nó dado.
 
 ### Como Utilizar
-1. Na classe **Main**, crie uma instância da classe **ArvoreBuscaBinaria**
+1. Na classe **Main**, crie uma instância da classe **ArvoreBuscaBinaria**:
    
 ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/9bfceb0f-e998-4e3f-b04f-18af79fe6b4f)
 
-2. Insira os elementos utilizando o método **Inserção** 
+2. Insira os elementos utilizando o método **Inserção**:
 ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/abf27941-d810-4b70-9f39-db08a60f9f12)
 
-3. Chama-se o método **Impressão** para ver a árvore
+3. Chama-se o método **Impressão** para ver a árvore:
 ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/58da931d-9172-4c89-b8ce-1ad5dbbfcb54)
 
-5.  Remova elementos da árvore usando o método **Remoção**
+5.  Remova elementos da árvore usando o método **Remoção**:
  [image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/e8cfafac-f502-4b5e-a7f0-a917f8edd561)
 
-6. Busque elementos na árvore usando o método **Busca**
+6. Busque elementos na árvore usando o método **Busca**:
 - Busca que dá certo:
   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/df58cdc9-2745-4da8-8171-af2b85a98d24)
 
