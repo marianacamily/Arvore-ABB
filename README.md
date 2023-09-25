@@ -1,4 +1,4 @@
-![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/d32f0626-ed54-4120-a615-da4e108bee4c)
+
 # Árvore-ABB
 Trabalho da disciplina de Estrutura de Dados, feito por Beatriz Petry, Julia Engels e Mariana Camily, cursando o 4° período de Engenharia de Software na PUCPR. O trabalho é baseado em uma implementação de uma árvore de busca binária, seguindo os princípios de Programação Orientada a Objetos, ou seja, modulada em classes Main, ArvoreBuscaBinaria e Nó.
 
@@ -34,8 +34,9 @@ O método remoção (int valor) remove um valor da árvore. Ele chama o método 
 
 4.  Remova elementos da árvore usando o método **Remoção**:
   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/e8cfafac-f502-4b5e-a7f0-a917f8edd561)
+   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/d32f0626-ed54-4120-a615-da4e108bee4c)
 
-5. Busque elementos na árvore usando o método **Busca**:
+6. Busque elementos na árvore usando o método **Busca**:
    
   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/df58cdc9-2745-4da8-8171-af2b85a98d24)
 
