@@ -36,10 +36,9 @@ O método remoção (int valor) remove um valor da árvore. Ele chama o método 
   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/e8cfafac-f502-4b5e-a7f0-a917f8edd561)
 
 5. Busque elementos na árvore usando o método **Busca**:
-- Busca que dá certo:
+   
   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/df58cdc9-2745-4da8-8171-af2b85a98d24)
 
-- Busca que não dá certo:
   ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/bc09e453-57f0-464c-9d4f-67dc7bc4a061)
 
 
