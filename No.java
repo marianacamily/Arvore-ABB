@@ -1,9 +1,9 @@
-class No {
+class Nó {
     int dado;
-    No esquerda;
-    No direita;
+    Nó esquerda;
+    Nó direita;
 
-    public No(int dado) {
+    public Nó(int dado) {
         this.dado = dado;
         esquerda = null;
         direita = null;
