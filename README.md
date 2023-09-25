@@ -5,7 +5,7 @@ Trabalho da disciplina de Estrutura de Dados, feito por Beatriz Petry, Julia Eng
 Arvore- ABB
 Essa é a classe da árvore binária de busca, nela possui os algoritmos de inserção, busca, impressão e remoção. Ela possui um atributo privado na raiz que é o primeiro elemento da árvore.
 
-Nó
+Nó #
 Essa clase é importante para a criação de uma árvore, nela contém uns atributos que armazenam o número do nó, nó esquerdo e direito que direciona para a direta e esquerda na árvore. Nela se mantém uma referência ao valor de cada nó, permitindo que a estrutura encadeada simples da classe árvore.
 
 Inserção
