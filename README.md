@@ -15,7 +15,7 @@ Possui 2 métodos o primeiro insersao(int valor) que chama o outro método priva
 Nesse algoritmo temos o método busca(int valor) que busca um valor na árvore e retorna verdadeiro se o valor for encontrado, caso contrário retorna falso. Ele chama o método privado buscaRercusiva que realiza a busca de forma recursiva, comparando o valor atual com o valor desejado e navegando para esquerda ou direita. 
 
 ### Impressão
-Método de impressão da árvore em um formato de dependência usando a classe TreeFormatter.
+Método de impressão da árvore em um formato de dependência usando o printTree.
 
 ### Remoção
 O método remoção (int valor) remove um valor da árvore. Ele chama o método privado remocaoRecursiva para realizar a remoção de forma recursiva, considerando os casos de remoção de nós com nenhum, um ou dois filhos. Além de ter o método privado encontrarMenorValor que ajuda a encontrar o menor valor da subárvore a partir de um nó dado.
