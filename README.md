@@ -24,16 +24,16 @@ O método remoção (int valor) remove um valor da árvore. Ele chama o método 
 ### Como Utilizar
 1. Na classe **Main**, crie uma instância da classe **ArvoreBuscaBinaria**:
    
-![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/9bfceb0f-e998-4e3f-b04f-18af79fe6b4f)
+  ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/9bfceb0f-e998-4e3f-b04f-18af79fe6b4f)
 
 2. Insira os elementos utilizando o método **Inserção**:
-![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/abf27941-d810-4b70-9f39-db08a60f9f12)
+  ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/abf27941-d810-4b70-9f39-db08a60f9f12)
 
 3. Chama-se o método **Impressão** para ver a árvore:
-![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/58da931d-9172-4c89-b8ce-1ad5dbbfcb54)
+  ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/58da931d-9172-4c89-b8ce-1ad5dbbfcb54)
 
 4.  Remova elementos da árvore usando o método **Remoção**:
- [image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/e8cfafac-f502-4b5e-a7f0-a917f8edd561)
+  ![image](https://github.com/marianacamily/Arvore-ABB/assets/108103273/e8cfafac-f502-4b5e-a7f0-a917f8edd561)
 
 5. Busque elementos na árvore usando o método **Busca**:
 - Busca que dá certo:
