@@ -6,29 +6,29 @@ public class ArvoreBinaria {
     }
 
     public void inserir(int valor) {
-        raiz = inserirNó(raiz, valor);
+        raiz = inserirRecur(raiz, valor);
     }
 
-    private Nó inserirNó(Nó raiz, int valor) {
+    private Nó inserirRecur(Nó raiz, int valor) {
         if (raiz == null) {
             raiz = new Nó(valor);
             return raiz;
         }
 
         if (valor < raiz.dado) {
-            raiz.esquerda = inserirNó(raiz.esquerda, valor);
+            raiz.esquerda = inserirRecur(raiz.esquerda, valor);
         } else if (valor > raiz.dado) {
-            raiz.direita = inserirNó(raiz.direita, valor);
+            raiz.direita = inserirRecur(raiz.direita, valor);
         }
 
         return raiz;
     }
 
     public boolean buscar(int valor) {
-        return buscarNó(raiz, valor);
+        return buscarRecur(raiz, valor);
     }
 
-    private boolean buscarNó(Nó raiz, int valor) {
+    private boolean buscarRecur(Nó raiz, int valor) {
         if (raiz == null) {
             return false;
         }
@@ -38,25 +38,25 @@ public class ArvoreBinaria {
         }
 
         if (valor < raiz.dado) {
-            return buscarNó(raiz.esquerda, valor);
+            return buscarRecur(raiz.esquerda, valor);
         }
 
-        return buscarNó(raiz.direita, valor);
+        return buscarRecur(raiz.direita, valor);
     }
 
     public void remover(int valor) {
-        raiz = removerNó(raiz, valor);
+        raiz = removerRecur(raiz, valor);
     }
 
-    private Nó removerNó(Nó raiz, int valor) {
+    private Nó removerRecur(Nó raiz, int valor) {
         if (raiz == null) {
             return raiz;
         }
 
         if (valor < raiz.dado) {
-            raiz.esquerda = removerNó(raiz.esquerda, valor);
+            raiz.esquerda = removerRecur(raiz.esquerda, valor);
         } else if (valor > raiz.dado) {
-            raiz.direita = removerNó(raiz.direita, valor);
+            raiz.direita = removerRecur(raiz.direita, valor);
         } else {
             if (raiz.esquerda == null) {
                 return raiz.direita;
@@ -66,7 +66,7 @@ public class ArvoreBinaria {
 
             raiz.dado = valorMinimo(raiz.direita);
 
-            raiz.direita = removerNó(raiz.direita, raiz.dado);
+            raiz.direita = removerRecur(raiz.direita, raiz.dado);
         }
 
         return raiz;
